@@ -1,0 +1,242 @@
+body {
+  background: url(../images/first.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} 
+
+.square {
+	width: 580px;
+	height: 437px;
+	display: inline-grid;
+	display: -ms-inline-grid;
+	grid-template-columns: 290px 290px;
+	-ms-grid-columns: 290px 290px;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	position: absolute;
+}
+
+.leftSide {
+	display: grid;
+	display: -ms-grid;
+	grid-template-rows: 239px 93px 105px;
+	-ms-grid-rows: 239px 93px 105px;
+	background-image: url(../images/Second1.jpg);
+  max-width: 290px;
+  min-width: 290px;
+	height: 437px;
+	border-radius: 10px 0 0 10px;
+}
+
+.sunny-container {
+	display: grid;
+	display: -ms-grid;
+	width: 290px;
+	max-width: 290px;
+  min-width: 290px;
+	height: 239px;
+}
+
+.sunny {
+	width: 140px;
+	height: 140px;
+	margin-top: 50px;
+	margin-left: 76px;
+}
+
+.square-burgundy {
+	display: grid;
+	display: -ms-grid;
+	justify-content: center;
+	width: 290px;
+	max-width: 290px;
+  min-width: 290px;
+	margin: 0;
+	background-color: #35262b;
+	opacity: 0.9;
+	font-family: Dosis-Light;
+	color: #fff;
+	font-size: 2.3em;
+	line-height: 90px;
+}
+
+.square-red {
+	display: grid;
+	display: -ms-grid;
+	justify-content: center;
+	width: 290px;
+	max-width: 290px;
+  min-width: 290px;
+	margin: 0;
+	background-color: #771921;
+	opacity: 0.9;
+	font-family: Dosis-Light;
+	color: #fff;
+	font-size: 1.4em;
+	line-height: 100px;
+	border-radius: 0 0 0 10px;
+}
+
+.rightSide {
+	display: grid;
+	display: -ms-grid;
+	grid-template-rows: 143px 101px 114px 81px;
+	-ms-grid-rows: 143px 98px 114px 81px;
+	background-image: url(../images/Second2.png);
+  max-width: 290px;
+  min-width: 290px;
+	height: 437px;
+	border-radius: 0 10px 10px 0;
+}
+
+.tempreature {
+	display: grid;
+	display: -ms-grid;
+	justify-content: center;
+	width: 290px;
+	font-family: "Dosis-ExtraLight";
+	font-size: 6em;
+	margin: auto;
+	line-height: 143px;
+	color: #661f26;
+}
+
+.grafic {
+	width: 210px;
+	border-top: 0.2px solid #661f26;
+	border-bottom: 0.2px solid #661f26;
+	margin: auto;
+}
+
+.frame__top {
+	display: grid;
+	display: -ms-grid;
+	grid-template-columns: 50px 30px 50px 30px 50px;
+	-ms-grid-columns: 50px 30px 50px 30px 50px;
+	text-align: center;
+	width: 210px;
+	height: 114px; 
+	margin: auto;
+}
+
+.frame__columns {
+	height: 114px;
+	display: grid;
+	display: -ms-grid;
+	grid-template-rows: 60px 54px;
+	-ms-grid-rows: 60px 54px;
+}
+
+.cloud-picture {
+	width: 50px;
+	display: block;
+	margin-top: 20px;
+}
+
+.days {
+	width: 50px;
+	margin-top: 20px;
+	border-bottom: 0.5px solid #661f26;
+	color: #661f26; 
+	font-family: "Dosis-Book";
+	font-weight: 400;
+	font-size: 1.1em;
+}
+
+.emptiness {
+	display: grid;
+	display: -ms-grid;
+	width: 30px;
+	height: 114px;
+}
+
+.frame__bottom {
+	display: grid;
+	display: -ms-grid;
+	grid-template-columns: 50px 30px 50px 30px 50px;
+	-ms-grid-columns: 50px 30px 50px 30px 50px;
+	width: 210px;
+	height: 81px; 
+	margin: auto;
+	padding-top: 0;
+	text-align: center;
+}
+
+.frame__bottom__columns {
+	height: 81px;
+	display: grid;
+	display: -ms-grid;
+	grid-template-rows: 40px 41px;
+	-ms-grid-rows: 40px 41px;
+}
+
+.tempreature__top {
+	margin-top: 10px; 
+	color: #661f26;
+	font-family: "Dosis-Book";
+	font-weight: 400;
+	font-size: 1.1em;
+}
+
+.tempreature__bottom {
+	font-family: "Dosis-Book";
+	font-size: 1.1em;
+}
+
+@media only screen and (min-width : 320px) and (max-width: 480px) {
+    .square {
+			max-width: 100%;
+			max-height: 100%;
+			display: grid;
+			display: -ms-grid;
+			grid-template-columns: 290px 290px;
+			-ms-grid-columns: 290px 290px;
+			padding-left: 20px;
+	}
+    .rightSide {
+			grid-row: 2;
+      grid-column: 1;
+			-ms-grid-row: 1;
+      -ms-grid-column: 2;
+			border-radius: 0 0 10px 10px;
+    }
+    .leftSide {
+			grid-row: 1;
+			grid-column: 1;
+			-ms-grid-row: 1;
+			-ms-grid-column: 1;
+	  	border-radius: 10px 10px 0 0;
+	}
+		.square-red {
+			border-radius: 0 0 0 0;
+	}
+}
+
+@media screen and (min-width : 768px) and (max-width : 1024px) { 
+	  .square {
+			display: inline-grid;
+			display: -ms-inline-grid;
+			grid-template-columns: 290px 290px;
+			-ms-grid-columns: 290px 290px;
+	}
+		.rightSide {
+			display: grid;
+			display: -ms-grid;
+    }
+		.leftSide {
+			display: grid;
+			display: -ms-grid;
+	  }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active){
+		.sunny-container {
+			margin: 0 auto;
+			padding-bottom: 50px ;
+	}
+}

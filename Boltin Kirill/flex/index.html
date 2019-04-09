@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<title>TokyoWidget</title>
+</head>
+<body>
+		<!--Создаем контейнер, в котором будет виджет-->
+			<div class="square">
+				<!--Создаем пустой div контейнер для правой стороны виджета, чтобы он аккуратно сворачивался в IE11 и Opera-->
+				<div>
+				<!--Создаем левую сторону виджета--> 
+				<div class="leftSide">
+					<div class="sunny-container"><img class="sunny" src="images/sun.png" alt="sun"></div>
+					<p class="square-burgundy">Sunny</p>
+					<p class="square-red">Tokyo - Wednesday, July 31</p>	
+				</div>
+				</div>
+				<!--Создаем пустой div контейнер для левой стороны виджета, чтобы он аккуратно сворачивался в IE11 и Opera-->
+				<div>
+				<!--Создаем правую сторону виджета-->
+				<div class="rightSide">
+					<p class="tempreature">28 &deg;C</p>
+					<div class="grafic"><img  src="images/grafics.jpg" alt="grafics"></div>
+						<div class="frame__top">
+							<div class="frame__columns">
+								<div class="cloud-picture"><img src="images/minisun2.jpg" width="41" height="40" alt="minisun2"></div>
+								<div class="days">Thu</div>
+							</div>
+								<div class="emptiness"></div>
+							<div class="frame__columns">
+								<div class="cloud-picture"><img src="images/minisun1.jpg" width="41" height="40" alt="minisun1"></div>
+								<div class="days">Fri</div>
+							</div>
+								<div class="emptiness"></div>
+							<div class="frame__columns">
+								<div class="cloud-picture"><img src="images/minisun1.jpg" width="41" height="40" alt="minisun1"></div>
+								<div class="days">Sat</div>
+							</div>
+						</div>
+						<div class="frame__bottom">
+							<div class="frame__columns">
+								<div class="tempreature__top">28&deg;C</div>
+								<div class="tempreature__bottom">18&deg;C</div>
+							</div>
+								<div class="emptiness"></div>
+							<div class="frame__columns">
+								<div class="tempreature__top">22&deg;C</div>
+								<div class="tempreature__bottom">20&deg;C</div>
+							</div>
+								<div class="emptiness"></div>
+							<div class="frame__columns">
+								<div class="tempreature__top">30&deg;C</div>
+								<div class="tempreature__bottom">27&deg;C</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+</body>
+</html>
